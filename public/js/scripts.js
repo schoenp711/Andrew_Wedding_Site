@@ -241,24 +241,17 @@ $(document).ready(function () {
 
 // Google map
 function initMap() {
-    var church = {lat: 40.4263873, lng: -79.9864019};
-    var ballroom = {lat: 40.4377254, lng: -79.9894711};
+    var hollyhedges = {lat: 40.3972091, lng: -74.9866485};
     var map = new google.maps.Map(document.getElementById('map-canvas'), {
         zoom: 15,
-        center: church,
+        center: hollyhedges,
         scrollwheel: false
     });
 
     var church = new google.maps.Marker({
-        position: church,
+        position: hollyhedges,
         map: map,
-        label: 'St Adelbert Church'
-    });
-
-    var ballroom = new google.maps.Marker({
-        position: ballroom,
-        map: map,
-        label: 'Ballroom'
+        label: 'HollyHedge Estate'
     });
 }
 

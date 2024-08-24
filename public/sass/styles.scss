@@ -252,7 +252,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url('../img/hero-min2.jpeg') center center;
+  background: url('../img/boat.jpg') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -570,7 +570,6 @@ Features-stack
 ========================================================================== */
 .travel {
   .centercol {
-    border-right: solid 1px $keyline-color;
     border-left: solid 1px $keyline-color;
   }
 
